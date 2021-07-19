@@ -21,7 +21,7 @@ public class AddToCartPage {
           WebElement proceedToCheckout;
     @FindBy(linkText = "Proceed to checkout")
     WebElement proceedToCheckout2;
-    @FindBy(linkText = "CREATE AN ACCOUNT")
+    @FindBy(className = "page-subheading")
           WebElement createAnAccount;
 
     SeleniumImplimentation selenium;
