@@ -13,7 +13,7 @@ public class AddToCartTest {
     AddToCartPage page;
     @BeforeTest
     public void setup(){
-        System.setProperty("webdriver.chrome.driver","/Users/najeeb/Software/chromedriver-2");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver-2");
         driver = new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();

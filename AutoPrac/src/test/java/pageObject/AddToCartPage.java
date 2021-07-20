@@ -40,7 +40,7 @@ public class AddToCartPage {
         selenium.pause();
         selenium.click(proceedToCheckout2);
 
-       return selenium.validateATC(driver,createAnAccount,"CREATE AN ACCOUNT");
+       return selenium.validateAddToCart(driver,createAnAccount,"CREATE AN ACCOUNT");
 
     }
 

@@ -30,7 +30,7 @@ public class SeleniumImplimentation {
         size.selectByVisibleText(text);
     }
 
-    public boolean validateATC(WebDriver driver, WebElement element, String expectedText){
+    public boolean validateAddToCart(WebDriver driver, WebElement element, String expectedText){
         String displayText = element.getText();
         if(displayText.equals(expectedText)){
             return true;
