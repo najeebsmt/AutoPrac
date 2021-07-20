@@ -1,4 +1,4 @@
-# automationPrac
+# AutoPrac
 
 
 This test suite contains scenario to verify summer dress added to the cart
